@@ -81,7 +81,7 @@ If you still have questions, I recommend you to read through this documentation 
 ## Execution
 Feel free to test this as it is fully operational. Modify it, break it, make it better, whatever. In order to do this, you'll need to set up google play services and get a Google Maps API v2 Key if you haven't already. To do so simply follow these instructions:
 ```
-[Google Play Services](http://developer.android.com/google/play-services/setup.html)
-[Google Maps](https://developers.google.com/maps/documentation/android/start#specify_app_settings_in_the_application_manifest)
+[Google Play Services](developer.android.com/google/play-services/)
+[Google Maps](developers.google.com/maps/documentation/android/start#specify_app_settings_in_the_application_manifest)
 ```
 Remember to change the API key value in the AndroidManifest.xml
