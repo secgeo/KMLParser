@@ -2,7 +2,7 @@
 A simple parser to read KML files in Android and use it on Google Maps
 
 
-## Usage (TL;DR / I already know what I'm here for)
+## Usage - TL:DR
 Simply copy the AsyncTask (PaintBorder) and modify it as you want. 
 
 ```
@@ -70,4 +70,18 @@ private class PaintBorder extends AsyncTask<String, Void, Void> {
 }
 ```
 
-## Usage (explain!!!)
+## Usage - Extended
+I have commented step by step what the parser and the post-execution do, just take a look at KMLParserExampleActivity.
+If you still have questions, I recommend you to read through this documentation as it will make it clearer:
+```
+AsyncTask:      http://developer.android.com/reference/android/os/AsyncTask.html
+Polyline:       https://developer.android.com/reference/com/google/android/gms/maps/model/Polyline.html
+```
+
+## Execution
+Feel free to test this as it is fully operational. Modify it, break it, make it better, whatever. In order to do this, you'll need to set up google play services and get a Google Maps API v2 Key if you haven't already. To do so simply follow these instructions:
+```
+https://developers.google.com/maps/documentation/android/start#specify_app_settings_in_the_application_manifest
+http://developer.android.com/google/play-services/setup.html
+```
+Remember to change the API key value in the AndroidManifest.xml
