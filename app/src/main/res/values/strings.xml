@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KMLParser</string>
+    <string name="load_border">LOAD BORDER</string>
+    <string name="clear_map"> CLEAR MAP </string>
+</resources>
